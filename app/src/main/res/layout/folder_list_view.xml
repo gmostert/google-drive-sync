@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/localFolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+id/localFolder"
+        android:textSize="36px"
+        android:freezesText="true">
+    </TextView>
+
+    <TextView
+        android:id="@+id/lastModified"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/localFolder"
+        android:text="@+id/lastModified"
+        android:textSize="18px"
+        android:freezesText="true">
+    </TextView>
+
+</RelativeLayout> 
